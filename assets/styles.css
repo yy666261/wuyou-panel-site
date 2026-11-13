@@ -638,6 +638,10 @@ a { color: var(--brand-dark); }
   background: #55d39b;
 }
 
+#skill .checklist li { color: var(--muted); }
+
+#skill .checklist li::before { background: var(--brand); }
+
 .latest {
   display: flex;
   align-items: center;

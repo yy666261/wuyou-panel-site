@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>无忧面板 · 个微智能客服面板（个人微信）</title>
-  <meta name="description" content="无忧面板是个微智能客服面板，运行在 Windows 本机：20 个功能页覆盖监听、关键词、知识库、AI 应答、好友、群聊、朋友圈、定时消息、语音、分诊与人工接管；支持一台电脑托管多个账号。">
+  <meta name="description" content="无忧面板是个微智能客服面板，运行在 Windows 本机：20 个功能页覆盖监听、关键词、知识库、AI 应答、好友、群聊、朋友圈、定时消息、语音、分诊与人工接管；配套技能包可接入外部 AI Agent 扩展长尾需求，并支持一台电脑托管多个账号。">
   <meta name="keywords" content="个微智能客服, 个人微信客服, 微信客服面板, 微信自动回复, AI 客服, vxhook, 多账号托管, SCRM">
   <meta property="og:title" content="无忧面板 · 个微智能客服面板（个人微信）">
-  <meta property="og:description" content="20 个功能页：监听、关键词、知识库、AI 应答、好友、群聊、朋友圈、定时消息、语音、分诊与人工接管，集中在一块本地面板里；支持一台电脑托管多个账号。">
+  <meta property="og:description" content="20 个功能页：监听、关键词、知识库、AI 应答、好友、群聊、朋友圈、定时消息、语音、分诊与人工接管，集中在一块本地面板里；配套技能包可接入外部 AI Agent 扩展长尾需求，并支持一台电脑托管多个账号。">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
@@ -22,6 +22,7 @@
       <nav class="nav" aria-label="主导航">
         <a href="#features">核心链路</a>
         <a href="#all-features">全部功能</a>
+        <a href="#skill">技能扩展</a>
         <a href="#modes">运行方式</a>
         <a href="changelog.html">更新日志</a>
         <a class="nav-cta" href="#demo">演示账号</a>
@@ -35,15 +36,15 @@
         <div class="hero-copy">
           <p class="eyebrow">Windows 本机运行 · 个人微信客服</p>
           <h1>把个人微信客服<br>交给一块本地面板</h1>
-          <p class="lede">从监听、关键词、知识库与 AI 应答，到好友、群聊、朋友圈、定时触达和人工接管，20 个功能页装在同一块面板里。配置、日志、记忆留在本机，AI 走你填写的模型接口。</p>
+          <p class="lede">从监听、关键词、知识库与 AI 应答，到好友、群聊、朋友圈、定时触达和人工接管，20 个功能页装在同一块面板里。配置、日志、记忆留在本机，AI 走你填写的模型接口；通用功能之外的长尾需求，可以用配套技能包交给外部 AI Agent 现场组合。</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#all-features">看全部 20 个功能页</a>
-            <a class="btn btn-ghost" href="changelog.html">30 个版本的更新记录</a>
+            <a class="btn btn-ghost" href="changelog.html">31 个版本的更新记录</a>
           </div>
           <ul class="hero-facts">
             <li><strong>20</strong><span>个功能页</span></li>
-            <li><strong>30</strong><span>个版本</span></li>
-            <li><strong>147</strong><span>条更新</span></li>
+            <li><strong>31</strong><span>个版本</span></li>
+            <li><strong>153</strong><span>条更新</span></li>
             <li><strong>3</strong><span>档运行模式</span></li>
           </ul>
         </div>
@@ -536,6 +537,54 @@
       </div>
     </section>
 
+    <section class="section section-alt" id="skill">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">技能扩展</p>
+          <h2>面板管日常，长尾需求交给 AI Agent</h2>
+          <p>面板继续做稳定的被动应答；不通用、需要判断的需求，用配套技能包交给外部 AI Agent 现场组合，不必等固定功能排期，也不用把面板配置项越堆越多。</p>
+        </div>
+        <div class="principles">
+          <article class="principle">
+            <span class="principle-no">01</span>
+            <h3>面板保持克制</h3>
+            <p>常驻被动应答、配置项不膨胀；只有通用能力进面板，长尾需求放在外部 Agent。</p>
+          </article>
+          <article class="principle">
+            <span class="principle-no">02</span>
+            <h3>一套技能积木</h3>
+            <p>61 条本机账号命令覆盖联系人、群聊、朋友圈、消息巡检与发送；Agent 按你的需求组合，不预设固定场景。</p>
+          </article>
+          <article class="principle">
+            <span class="principle-no">03</span>
+            <h3>发送有护栏</h3>
+            <p>目标解析、预览与确认令牌、频控去重、批量失败即停与审计；写操作逐条同意，不自动重试。</p>
+          </article>
+          <article class="principle">
+            <span class="principle-no">04</span>
+            <h3>只留一个发送者</h3>
+            <p>面板在跑时，客户可见发送走面板队列；成功只代表入队，当前通道没有送达回声，不会两边同时发。</p>
+          </article>
+          <article class="principle">
+            <span class="principle-no">05</span>
+            <h3>本地库只读</h3>
+            <p>联系人分组、语音库等网关没覆盖的数据可只读解密；源库不改，密钥只在本机流转，每把密钥先过校验。</p>
+          </article>
+          <article class="principle">
+            <span class="principle-no">06</span>
+            <h3>多工具可接</h3>
+            <p>Qoder、Codex、Claude Code、WorkBuddy、QwenPaw 等按同一份技能包工作，跟着你现有的 AI 工具走。</p>
+          </article>
+        </div>
+        <ul class="checklist">
+          <li>面板顶栏点「技能下载」获取 wechat-dll 1.4.0，再导入你正在用的 AI Agent 工具。</li>
+          <li>先让 Agent 只读了解联系人、群聊与数据边界，再按需求写任务、跑预览、逐条确认。</li>
+          <li>客户可见发送仍走面板队列；技能不会绕过频控、去重与确认令牌。</li>
+          <li>技能是独立工具包，不改面板现有聊天、自动回复与配置；不用时随时移除。</li>
+        </ul>
+      </div>
+    </section>
+
     <section class="section" id="modes">
       <div class="wrap">
         <div class="modes">
@@ -575,10 +624,10 @@
       <div class="wrap">
         <div class="latest">
           <div>
-            <h2>最新版本 v1.8.9 · 2026-11-12</h2>
-            <p>新好友通过后先发打招呼内容，等待期间客户的提问会合并成一条，排在打招呼之后回复，不再连续收到多条消息；好友验证语也不会再被当成客户提问触发多余回复。上一版 v1.8.8 新增群聊「全部群都生效」开关：群消息默认只按群列表处理，列表为空时不再处理任何群消息，启动前的配置总览会提醒补充群列表。</p>
+            <h2>最新版本 v1.9.0 · 2026-11-13</h2>
+            <p>新增 wechat-dll 1.4.0 配套技能：把面板已有的查询、发送与本地库只读解密能力交给外部 AI Agent，客户可以按自己的长尾需求现场组合功能，不必等面板新增固定页面。发送仍走预览、确认令牌、频控与去重；面板运行时只留一个发送出口，成功只代表入队，当前通道没有送达回声。上一版 v1.8.9 修复了新好友通过后消息顺序错乱与验证语触发多余回复的问题。</p>
           </div>
-          <a class="btn btn-ghost" href="changelog.html">查看全部 30 个版本</a>
+          <a class="btn btn-ghost" href="changelog.html">查看全部 31 个版本</a>
         </div>
       </div>
     </section>
@@ -593,6 +642,7 @@
       </div>
       <div class="footer-links">
         <a href="index.html#all-features">全部功能</a>
+        <a href="index.html#skill">技能扩展</a>
         <a href="index.html#modes">运行方式</a>
         <a href="changelog.html">更新日志</a>
       </div>
